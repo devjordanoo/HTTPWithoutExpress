@@ -2,22 +2,22 @@ import ContactController from "./controllers/ContactController.js";
 
 const routes = [
   {
-    path: "/",
+    path: "/contacts",
     method: "GET",
     handler: ContactController.GET,
   },
   {
-    path: "/",
+    path: "/contacts/:id",
     method: "POST",
     handler: ContactController.POST,
   },
   {
-    path: "/",
+    path: "/contacts/:id",
     method: "PUT",
     handler: ContactController.PUT,
   },
   {
-    path: "/",
+    path: "/contacts/:id",
     method: "DELETE",
     handler: ContactController.DELETE,
   },

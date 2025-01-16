@@ -17,14 +17,14 @@ os conceitos de APIs RESTful de forma prática e educativa.
 > [!NOTE]
 > Todas as funcionalidades foram/serão contruidas sem o uso de bibliotecas externas
 
-- [x] - Servidor HTTP Simples
-- [x] - Bodyparser
-- [x] - Routes
-- [ ] - Query Params
-- [ ] - Route Params
-- [ ] - Hash Param
-- [x] - Controllers
-- [ ] - Repositories
+- :white_check_mark: - Servidor HTTP Simples
+- :white_check_mark: - Bodyparser
+- :white_check_mark: - Routes
+- :white_square_button: - Query Params
+- :white_square_button: - Route Params
+- :white_square_button: - Hash Param
+- :white_check_mark: - Controllers
+- :white_square_button: - Repositories
 
 ## Instruções para rodar o projeto
 - `npm i`
