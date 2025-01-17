@@ -4,22 +4,27 @@ const routes = [
   {
     path: "/contacts",
     method: "GET",
-    handler: ContactController.GET,
+    handler: ContactController.List,
   },
   {
     path: "/contacts/:id",
+    method: "GET",
+    handler: ContactController.Get,
+  },
+  {
+    path: "/contacts",
     method: "POST",
-    handler: ContactController.POST,
+    handler: ContactController.Create,
   },
   {
     path: "/contacts/:id",
     method: "PUT",
-    handler: ContactController.PUT,
+    handler: ContactController.Edit,
   },
   {
     path: "/contacts/:id",
     method: "DELETE",
-    handler: ContactController.DELETE,
+    handler: ContactController.Delete,
   },
 ]
 

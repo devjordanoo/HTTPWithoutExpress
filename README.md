@@ -21,10 +21,10 @@ os conceitos de APIs RESTful de forma prática e educativa.
 - :white_check_mark: - Bodyparser
 - :white_check_mark: - Routes
 - :white_square_button: - Query Params
-- :white_square_button: - Route Params
+- :white_check_mark: - Route Params
 - :white_square_button: - Hash Param
 - :white_check_mark: - Controllers
-- :white_square_button: - Repositories
+- :white_check_mark: - Repositories
 
 ## Instruções para rodar o projeto
 - `npm i`
