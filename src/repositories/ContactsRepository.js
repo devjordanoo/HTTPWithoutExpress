@@ -16,7 +16,12 @@ class ContactsRepository {
 
   async update(contact) {
     const index = ContactsData.findIndex((c) => c.id === contact.id);
+    if(index === -1) {
+      return false;
+    }
+
     ContactsData[index] = contact;
+    return contact;
   }
 
   async delete(id) {

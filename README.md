@@ -20,9 +20,8 @@ os conceitos de APIs RESTful de forma prática e educativa.
 - :white_check_mark: - Servidor HTTP Simples
 - :white_check_mark: - Bodyparser
 - :white_check_mark: - Routes
-- :white_square_button: - Query Params
+- :white_check_mark: - Query Params
 - :white_check_mark: - Route Params
-- :white_square_button: - Hash Param
 - :white_check_mark: - Controllers
 - :white_check_mark: - Repositories
 
